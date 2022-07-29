@@ -57,8 +57,20 @@ html {
   border-bottom: 0.3rem solid #fff;
   text-shadow: 0.2rem 0.2rem 1rem #555;
   transform: skew(-10deg);
+  margin: 0 0.5rem;animation-duration: 2s;
+  animation-name: aparecer;
+  animation-delay: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
 }
-
+@keyframes aparecer{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
 .person-img {
   width: 25rem;
   height: 25rem;
