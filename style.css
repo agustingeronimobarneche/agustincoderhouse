@@ -155,6 +155,7 @@ html {
 .navbar-link:hover::before {
   width: 130%;
 }
+
 /* Fin de Navbar */
 
 /* Seccion 2 */
@@ -240,7 +241,7 @@ html {
 
 /* Seccion 3 */
 .section-3 {
-  width: 100%;
+  width: auto;
   height: 100%;
   padding: 10rem 0;
   background-color: #eef;
